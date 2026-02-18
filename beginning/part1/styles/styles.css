@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1 em;
+    line-height: 2 em;
+    background-color: #EDEDED;
+}
+.heading {
+     color:blue;
+     font-size:1.6em;
+     border-bottom: 1px solid #929CA4;
+     border: width 100%;
+}
+
+body p:first-of-type::first-letter {
+     font-size: 30px;
+}
+
+.features p::first-line {
+    font-style: bold;
+    color: #CC1C0D;
+}
+
+#testimonial1, #testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+body a:link {
+    color: rgb(13, 172, 13);
+    text-decoration: wavy;
+}
+body a:hover {
+    color: orange;
+    text-decoration: dotted;
+}
+
+ul li {
+    list-style-type:none;
+}
+
+ul li:first-child{
+    color: blue;
+}
+
+ul li:last-child{
+    color: red;
+}
