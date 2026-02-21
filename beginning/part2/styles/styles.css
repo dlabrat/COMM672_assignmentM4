@@ -82,17 +82,17 @@ td {
     border-radius: 8px;
 }
 
-.community hr:first-of-type {
+.community div:nth-child(1) hr {
     padding: 5px;
     background-color:#7CA982;
 }
 
-.community hr:nth-of-type(2) {
+.community div:nth-child(2) hr{
     padding: 5px;
     background-color:#E6A563;
 }
 
-.community hr:last-of-type {
+.community div:nth-child(3) hr{
     padding: 5px;
     background-color:#B36793;
 }
